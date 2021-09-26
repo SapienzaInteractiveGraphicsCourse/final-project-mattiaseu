@@ -89,10 +89,8 @@
         groundMat.diffuseTexture = new BABYLON.Texture("Res/halfcourt.png");
         groundMat.bumpTexture = new BABYLON.Texture("Res/Wood_020_normal.jpg");
         // set variables for tiling
-        groundMat.bumpTexture.uScale = 4;
         groundMat.bumpTexture.uScale = 5;
         ground.material = groundMat;
-        ground.receiveShadows = true;
 
         // the hoop will be composed of a rim and a backboard
         // first we create a torus for the rim
